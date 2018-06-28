@@ -1,12 +1,12 @@
 body{
-	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	font: 15px/1.5 'Open Sans', Arial, Helvetica, sans-serif;;
 	padding: 0;
 	margin: 0;
 	background-color: #f4f4f4;
 }
 
 .container{
-	width: 80%;
+	width: 85%;
 	margin: auto;
 	overflow: hidden;
 }
@@ -18,16 +18,17 @@ ul{
 
 /*header*/
 header{
-	background: #353637;
+	background: #8B008B;
 	color: #ffffff;
-	padding-top: 30px;
+	padding-top: 10px;
 	min-height: 50px;
-	border-bottom: #E238EC 3px solid;
+	border-bottom: #8B008B 3px solid;
 }
 
 header a{
 	color: #ffffff;
 	text-decoration: none;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 16px;
 }
@@ -52,7 +53,7 @@ header nav{
 }
 
 header .highlight,header .current a{
-	color: #E238EC;
+	color: #FFDF00;
 	font-weight: bold;
 }
 
@@ -63,38 +64,41 @@ header a:hover{
 
 /*showcase*/
 #showcase{
-	min-height: 480px;
+	min-height: 550px;
 	/*background: url('http://myfreephotos.net/wp-content/uploads/2015/04/africa-village-smiling-african-children.jpg') no-repeat center;*/
-	background: url('../img/purplelove.png') no-repeat center;
+	background: url('https://static1.squarespace.com/static/593d4cce440243665c38b698/t/59fc069071c10bec14af061d/1528831314486/children-205219_1920.jpg?format=1500w') no-repeat center;
 	background-size: cover;
 	text-align: center;
-	color: #ffffff;
+	color: #ffff88;
 }
 
 #showcase h1{
-	margin-top: 70px;
+	margin-top: 180px;
+	font-weight: bold;
 	font-size: 45px;
 	margin-bottom: 5px;
 }
 
 #showcase p{
+	margin-bottom: 25px;
+	font-weight: bold;
 	font-size: 20px;	
 }
 
 #newsletter{
-	min-height: 60px;
-	padding: 20px;
+	min-height: 40px;
+	padding-bottom: 30px;
 	color: #ffffff;
-	background: #353637;
+	background: #DAA520;
 }
 
 #newsletter h1{
-	/*padding: 10px;*/
+	padding: 10px;
 	float: left;
 }
 
 #newsletter form{
-	/*padding: 10px;*/
+	padding: 10px;
 	float: right;
 	margin-top: 15px;
 }
@@ -107,7 +111,7 @@ header a:hover{
 
 .button_1{
 	height: 38px;
-	background: #cccccc;
+	background: #ffffff;
 	border: 0;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -118,8 +122,8 @@ header a:hover{
 footer{
   padding: 5px;
   margin-top: 0px;
-  color: #ffffff;
-  background-color: #E238EC;
+  color: #FFDF00;
+  background-color: #8B008B;
   text-align: center;
 }
 
@@ -156,7 +160,7 @@ ul#services li{
   padding: 20px;
   border: #cccccc solid 1px;
   margin-bottom: 5px;
-  background: #32a0c2;
+  background: #8B008B;
 }
 ul#services h3{
   border-bottom: #353637 solid 1px;

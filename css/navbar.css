@@ -1,0 +1,14 @@
+body{
+	width: 750px;
+	font-family: Arial,Verdana,sans-serif;
+	color: #665544;
+}
+h1{
+	/*background-color: #ee82ee;*/
+	background-color: #800080;
+	padding: 10px;
+	color: #ffffff;
+}
+/*p{
+	width: 450px;
+}*/

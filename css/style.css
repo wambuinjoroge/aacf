@@ -1,5 +1,5 @@
 body{
-	font: 15px/1.5 'Open Sans', Arial, Helvetica, sans-serif;;
+	font: 15px/1.5 Arial,Helvetica,sans-serif;
 	padding: 0;
 	margin: 0;
 	background-color: #f4f4f4;
@@ -87,7 +87,7 @@ header a:hover{
 
 #newsletter{
 	min-height: 40px;
-	padding-bottom: 30px;
+	padding-bottom: 45px;
 	color: #ffffff;
 	background: #DAA520;
 }
@@ -118,14 +118,6 @@ header a:hover{
 	color: #353637;
 }
 
-/*footer*/
-footer{
-  padding: 5px;
-  margin-top: 0px;
-  color: #FFDF00;
-  background-color: #8B008B;
-  text-align: center;
-}
 
 /*boxes*/
 #boxes{
@@ -138,6 +130,13 @@ footer{
 	width: 300px;
 	margin: 30px;
 }
+
+.box hr{
+	float: right;
+	/*width: 300px;*/
+	/*margin: 30px;*/
+}
+
 
 /* Sidebar */
 aside#sidebar{
@@ -164,4 +163,14 @@ ul#services li{
 }
 ul#services h3{
   border-bottom: #353637 solid 1px;
+}
+
+
+/*footer*/
+footer{
+	padding: 5px;
+	margin-top: 0px;
+	color: #FFDF00;
+	background-color: #8B008B;
+	text-align: center;
 }

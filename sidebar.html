@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Child Organization">
+ 	<meta name="keywords" content="HTML,CSS">
+	<meta name="viewport" content="width=device-width">
+	<title>AACF | Welcome</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/css/fontawesome.min.css">
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div id="branding">
+
+			<h1>
+				<span class="highlight">AA</span>CF
+			<!--<span><img src="img/aa.png" alt="aacf" width="50" height="50"></span>-->
+			</h1>
+		</div>
+		<div id="sideNavigation" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index.html">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="services.html">Services</a>
+		</div>
+
+		<nav class="topnav">
+			<a href="#" onclick="openNav()">
+				<svg width="30" height="30" id="icoOpen">
+					<path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+					<path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+					<path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+				</svg>
+
+			</a>
+
+		</nav>
+	</div>
+</header>
+<div class="main">
+
+
+	<section id="showcase">
+		<div class="container">
+			<h1>Reach One Help Africa Rise</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo repellat incidunt quasi quibusdam non nostrum, dolorem molestiae enim, excepturi soluta libero voluptatem provident consectetur accusamus nulla repudiandae nobis. Excepturi, assumenda.</p>
+		</div>
+	</section>
+
+	<section id="newsletter">
+		<h1>Get Our Newsletter</h1>
+		<form action="">
+			<input type="email" name="email" placeholder="Enter your email address ... ">
+			<button type="submit" class="button_1">Subscribe</button>
+		</form>
+	</section>
+
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<!-- <i class="fa fa-signal fa-5x"></i> -->
+				<h3>What we do</h3>
+				<p>Emotional Aspects. Learning is an emotional experience that cannot be fully engaged or understood through simple paper-and-pencil activities. Successful documentation strategies reveal the daily struggles, triumphs, fears, and joys that exist between children, teachers, and artists</p>
+				<hr width="0" size="200">
+			</div>
+
+
+
+			<div class="box">
+				<!-- <i class="fa fa-cube fa-5x"></i> -->
+				<h3>About Us</h3>
+				<p>Emotional Aspects. Learning is an emotional experience that cannot be fully engaged or understood through simple paper-and-pencil activities. Successful documentation strategies reveal the daily struggles, triumphs, fears, and joys that exist between children, teachers, and artists</p>
+				<hr width="0" size="200">
+			</div>
+			<!--<hr width="1" size="100">-->
+
+			<div class="box">
+				<!-- <i class="fa fa-photo fa-5x"></i> -->
+				<h3>What we do</h3>
+				<p>Emotional Aspects. Learning is an emotional experience that cannot be fully engaged or understood through simple paper-and-pencil activities. Successful documentation strategies reveal the daily struggles, triumphs, fears, and joys that exist between children, teachers, and artists</p>
+			</div>
+
+		</div>
+	</section>
+
+	<footer>
+		<p>Kris Kreations, Copyright &copy; 2018</p>
+	</footer>
+
+</div>
+
+
+<script>
+    function openNav() {
+        document.getElementById("sideNavigation").style.width = "100%";
+        document.getElementById("main").style.marginLeft = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("sideNavigation").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+</body>
+</html>

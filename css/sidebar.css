@@ -10,6 +10,7 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    text-align:center;
 }
 
 /* The navigation menu links */
@@ -51,6 +52,8 @@ body {
 .topnav {
     background-color: #FFDF00;
     overflow: hidden;
+    margin-bottom: 10px;
+    line-height: 5px;
 }
 
 /* Style the links inside the navigation bar */
@@ -59,7 +62,7 @@ body {
     display: block;
     color: #FFDF00;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px;
     text-decoration: none;
     font-size: 17px;
 }

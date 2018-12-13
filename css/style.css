@@ -44,7 +44,8 @@ header #branding {
 }
 
 header #branding h1{
-	margin: 0
+	margin: 0;
+	font-size: 2.6em;
 }
 
 header nav{
@@ -86,21 +87,22 @@ header a:hover{
 }
 
 #newsletter{
-	min-height: 40px;
-	padding-bottom: 45px;
+	min-height: 60px;
+	/*padding-bottom: 45px;*/
 	color: #ffffff;
 	background: #DAA520;
 }
 
 #newsletter h1{
 	padding: 10px;
+	line-height: 5px;
 	float: left;
 }
 
 #newsletter form{
 	padding: 10px;
 	float: right;
-	margin-top: 15px;
+	/*margin-top: 15px;*/
 }
 
 #newsletter input[type="email"]{
@@ -157,9 +159,9 @@ article#main-col{
 ul#services li{
   list-style: none;
   padding: 20px;
-  border: #cccccc solid 1px;
+  border: #8B008B solid 2px;
   margin-bottom: 5px;
-  background: #8B008B;
+  /*background: #;*/
 }
 ul#services h3{
   border-bottom: #353637 solid 1px;
@@ -168,7 +170,14 @@ ul#services h3{
 
 /*footer*/
 footer{
-	padding: 5px;
+	/*position: absolute;*/
+	/*right: 0;*/
+	/*bottom: 0;*/
+	/*left: 0;*/
+	/*!*padding: 1rem;*!*/
+	/*background-color: #8B008B;*/
+	/*text-align: center;*/
+	padding: 2px;
 	margin-top: 0px;
 	color: #FFDF00;
 	background-color: #8B008B;
